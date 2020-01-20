@@ -8,13 +8,8 @@
 
 ```javascript
 const hbs = require("express-hbs");
-```
 
-```javascript
 app.use("/public", express.static("public"));
-```
-
-```javascript
 app.engine(
     "hbs",
     hbs.express4({
