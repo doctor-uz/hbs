@@ -7,8 +7,6 @@
 // app.js
 
 ```javascript
-const hbs = require("express-hbs");
-
 app.use("/public", express.static("public"));
 app.engine(
     "hbs",
